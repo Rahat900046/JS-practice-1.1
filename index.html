@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,9 +10,43 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <div class="container mt-5">
+        <h2 class="text-center">LOG IN FORM</h2>
+        <form id="book-form">
+            <div class="form-group">
+                <label for="firstname">FIRST NAME</label>
+                <input type="text" id="firstname" class="form-control" placeholder="Enter Your First Name">
+            </div>
+
+            <div class="form-group">
+                <label for="lastname">LAST NAME</label>
+                <input type="text" id="lastname" class="form-control" placeholder="Enter Your Last Name">
+            </div>
+
+            <div class="form-group">
+                <label for="age">AGE</label>
+                <input type="number" id="age" class="form-control" placeholder="Enter Your Age">
+            </div>
+
+            <input type="button" value="Submit" class="btn btn-primary btn-block">
+        </form>
+
+        <table class="table table-striped mt-5">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Age</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+        </table>
+
+    </div>
 
     <script src="./main.js"></script>
 </body>
+
 </html>
